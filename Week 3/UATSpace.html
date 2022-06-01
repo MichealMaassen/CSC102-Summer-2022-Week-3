@@ -1,0 +1,76 @@
+<!--This is a test of the comment funtion. This file is made for CSC102
+    Assignment: Launching your UAT Space Program HTML Document Tags
+    Written by Michael Maassen
+    Email: smartgunner8535@gmail.com
+    Phone: (720) 394-2523-->
+<!DOCTYPE html>
+<!--This fufils HTML tag requirement for the entire document-->
+<html>
+<!--This fufils head tag requirement-->
+<head>
+    <!--This changes the background and text color-->
+    <style>
+        body {
+         background-image: url(335116-Earth-space-render.jpg);
+         color: white;
+    }
+    </style>
+    <!--Title goes at the title bar (very top)-->
+    <title>
+        Mike Maassen's UAT Space Page
+    </title>
+    <script src="code.js"></script>
+</head>
+
+<!--This fufils body tag requirement-->
+<body>
+    <!--Logo for UAT Space Program-->
+    <img src="UATspaceLogo.png">
+    <!--This fufils header requirement-->
+    <h1>UAT Space Program</h1>
+    <!--This fufils paragraph tag requirement-->
+    <p>This is a test of the paragraph tag. It is usually meant 
+        for more than one line of text. That is why it is called 
+        a paragraph tag.
+    </p>
+    <script>
+        //one line comment
+        //created a textValue comment
+        var textValue= "Test of the document.write() function";
+        //use that textValue comment
+        document.write(testValue);
+        /*multiline
+        comment for java
+        script*/
+    </script>  
+   <br>
+   <br>
+   Time left before launch: <br>
+   <div id="countdownDisplay">Launch not initiated</div>
+   <br>
+   <br>
+   <!--This fufils button requirements-->
+   <button onclick="blastoffTimerV1();">Start</button>
+   <button>Stop</button>
+   <br>
+   <br>
+   <!--This is the craps game-->
+   <!--Title and results lines with division IDs for each result-->
+   <h1>Craps Game</h1>
+   <h3>Die 1 Result: <div id= "die1Res">Play to Roll</h3></div>
+   <h3>Die 2 Result: <div id= "die2Res"> Play to Roll</h3></div>
+   <h3>Game Results: <div id= "crapsRes"></h3></div>
+   <br>
+   <!--Play button for craps game to demonstrate math functions and arithmatic operators-->
+   <button onclick="playCraps();">PLAY</button>
+   <br>
+   <br>
+   Wins<br>
+   <div id="winRes">Wins</div><br>
+   Losses<br>
+   <div id="loseRes">Losses</div><br>
+   Ties<br>
+   <div id="tieRes">Ties</div><br>
+</body>
+
+</html>
